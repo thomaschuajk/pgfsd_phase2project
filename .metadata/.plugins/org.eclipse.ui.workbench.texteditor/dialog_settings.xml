@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="private LocalTime time;"/>
+		<list key="findhistory">
+			<item value="private LocalTime time;"/>
+			<item value="&lt;%@ page language=&quot;java&quot; contentType=&quot;text/html; charset=ISO-8859-1&quot;"/>
+		</list>
+	</section>
+</section>
