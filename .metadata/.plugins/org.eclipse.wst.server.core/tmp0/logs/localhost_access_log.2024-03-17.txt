@@ -62,3 +62,7 @@
 0:0:0:0:0:0:0:1 - - [17/Mar/2024:21:26:58 +0800] "GET /ZumbaRegApp/ HTTP/1.1" 200 463
 0:0:0:0:0:0:0:1 - - [17/Mar/2024:21:26:59 +0800] "GET /ZumbaRegApp/batcheslist HTTP/1.1" 200 1742
 0:0:0:0:0:0:0:1 - - [17/Mar/2024:21:27:02 +0800] "GET /ZumbaRegApp/editbatch?id=1 HTTP/1.1" 500 3744
+127.0.0.1 - - [17/Mar/2024:21:28:21 +0800] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [17/Mar/2024:21:28:21 +0800] "GET /ZumbaRegApp/ HTTP/1.1" 200 463
+0:0:0:0:0:0:0:1 - - [17/Mar/2024:21:28:23 +0800] "GET /ZumbaRegApp/batcheslist HTTP/1.1" 200 1742
+0:0:0:0:0:0:0:1 - - [17/Mar/2024:21:28:26 +0800] "GET /ZumbaRegApp/editbatch?id=1 HTTP/1.1" 200 798
