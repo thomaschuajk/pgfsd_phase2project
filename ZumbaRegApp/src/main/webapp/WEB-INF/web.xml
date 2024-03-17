@@ -89,5 +89,14 @@
     <servlet-name>BatchEditServlet</servlet-name>
     <url-pattern>/editbatch</url-pattern>
   </servlet-mapping>
-  
+  <servlet>
+    <description></description>
+    <display-name>StudentsListServlet2</display-name>
+    <servlet-name>StudentsListServlet2</servlet-name>
+    <servlet-class>com.zumba.app.StudentsListServlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentsListServlet2</servlet-name>
+    <url-pattern>/studentslist2</url-pattern>
+  </servlet-mapping>
 </web-app>

@@ -56,7 +56,7 @@ public class StudentEditServlet extends HttpServlet {
 		//Send to StudentDAO to update database
 		this._studentDAO.UpdateStudent(this._student);
 		
-		response.sendRedirect("studentslist");
+		response.sendRedirect("studentslist2");
 		
 		
 	}

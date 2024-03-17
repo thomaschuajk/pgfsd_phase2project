@@ -30,12 +30,12 @@
 		                    <td>${batch.getEndDate()}</td>
 		                    <td>${batch.getSessionTime()}</td>
 		                    <td>
-		                        <a href="editbatch?id=${batch.getBatchId()}">Delete</a>&nbsp;
+		                        <a href="editbatch?id=${batch.getBatchId()}">Edit</a>&nbsp;
 		                        <a href="deletebatch?id=${batch.getBatchId()}">Delete</a>
 		                    </td>
 		                </tr>
 		     </c:forEach>
-		     <a href="batchform">Add Batch</a>&nbsp;
+		     <a href="batchform">Create Batch</a>&nbsp;
 		     <a href="index.jsp">Main Page</a>
 		     <br><br>
 			

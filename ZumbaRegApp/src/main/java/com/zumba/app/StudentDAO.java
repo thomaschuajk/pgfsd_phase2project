@@ -71,16 +71,17 @@ public class StudentDAO {
 				while(resultSet.next()) {
 					Student student = new Student();
 					Batch batch = new Batch();
-					student.setStudentId(resultSet.getInt("studentId"));
-					student.setFName(resultSet.getString("fName"));
+					student.setStudentId(resultSet.getInt("studentId"));					
+					student.setFName(resultSet.getString("fName"));					
 					student.setLName(resultSet.getString("lName"));
 					student.setEMail(resultSet.getString("eMail"));
 					student.setBatchId(resultSet.getInt("batchId"));
 					batch.setBatchId(resultSet.getInt("batchId"));
 					batch.setStartDate(resultSet.getDate("startDate").toString());
-					batch.setEndDate(resultSet.getDate("endDate").toString());
+					batch.setEndDate(resultSet.getDate("endDate").toString());					
 					batch.setSessionTime(resultSet.getTime("sessionTime").toString());				
 					Pair pair = new Pair(student,batch);
+					
 					pairs.add(pair);					
 				}
 			}

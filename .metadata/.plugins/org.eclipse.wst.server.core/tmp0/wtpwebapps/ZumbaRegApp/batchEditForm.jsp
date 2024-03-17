@@ -10,7 +10,7 @@
 <h2>Update Batch Form</h2>
 <form action="batchform" method="post">
 		<label for="batchid">Batch Id:</label>
-		<input type="text" id="batchid" name="batchid" value="${batch.getStudentId()}" disabled required>
+		<input type="text" id="batchid" name="batchid" value="${batch.getBatchId()}" disabled required>
 		<br>
 		<label for="startdate">Start Date:</label>
 		<input type="date" id="startdate" name="startdate" value="${batch.getStartDate()}" required>
@@ -24,6 +24,7 @@
 		<input type="submit" value="Submit">
 	
 	</form>
+	
 
 </body>
 </html>

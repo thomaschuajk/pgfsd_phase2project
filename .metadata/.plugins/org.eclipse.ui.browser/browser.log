@@ -1,0 +1,6 @@
+
+Mar 17, 2024 20:47:12.22 NEW SESSION
+Mar 17, 2024 20:47:12.23 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mar 17, 2024 20:47:12.23 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).
+Mar 17, 2024 20:55:51.12 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mar 17, 2024 20:55:51.12 WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#141 is a dynamic-sized tensor).

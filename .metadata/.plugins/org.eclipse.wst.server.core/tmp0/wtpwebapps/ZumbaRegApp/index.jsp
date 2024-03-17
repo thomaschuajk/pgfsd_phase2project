@@ -11,7 +11,7 @@
 <center><h1>Zumba Enrolment Management Application</h1></center>
 <center><a href="studentform">Add Student</a></center>
 <br><br>
-<center><a href="studentslist">Students Record</a></center>
+<center><a href="studentslist2">Students Record</a></center>
 <br><br>
 <center><a href="batchform">Create Batch</a></center>
 <br><br>

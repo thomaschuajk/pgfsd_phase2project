@@ -55,7 +55,7 @@ public class StudentFormServlet extends HttpServlet {
 		studentDAO.AddStudent(student);
 		
 		//Redirect to the student list page after adding
-		response.sendRedirect("studentslist");
+		response.sendRedirect("studentslist2");
 				
 	}
 
